@@ -1,0 +1,56 @@
+2013-09-18 16:31:28 | [5] | WARN  | LogSystem | warn | 2013/9/18 16:31:27 | 无异常描述
+2013-09-18 16:31:28 | [11] | WARN  | LogSystem | warn | 系统错误 | 文件不存在。
+2013-09-18 16:31:28 | [11] | WARN  | LogSystem | warn | Host : localhost
+Port : 6216
+User Host Address : ::1
+User Agent : Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+Url : http://localhost:6216/favicon.ico
+Raw Url : /favicon.ico
+Message : 文件不存在。
+Source : System.Web
+StackTrace :    在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+ | 无异常描述
+2013-09-18 16:31:28 | [11] | WARN  | LogSystem | warn | 程序错误 | 无异常描述
+2013-09-18 16:31:34 | [11] | WARN  | LogSystem | warn | 2013/9/18 16:31:34 | 无异常描述
+2013-09-18 16:31:34 | [5] | WARN  | LogSystem | warn | API调用-时间：2013/9/18 16:31:34 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-18 16:31:34 | [5] | WARN  | LogSystem | warn | 调用ResponseJSON-重新获取-时间：2013/9/18 16:31:34 | 无异常描述
+2013-09-18 16:31:35 | [5] | WARN  | LogSystem | warn | API响应-时间：2013/9/18 16:31:35 | 无异常描述
+2013-09-18 16:31:35 | [5] | WARN  | LogSystem | warn | 系统错误 | 文件不存在。
+2013-09-18 16:31:35 | [5] | WARN  | LogSystem | warn | Host : localhost
+Port : 6216
+User Host Address : ::1
+User Agent : Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+Url : http://localhost:6216/favicon.ico
+Raw Url : /favicon.ico
+Message : 文件不存在。
+Source : System.Web
+StackTrace :    在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+ | 无异常描述
+2013-09-18 16:31:35 | [5] | WARN  | LogSystem | warn | 程序错误 | 无异常描述
+2013-09-18 17:15:57 | [28] | WARN  | LogSystem | warn | 2013/9/18 17:15:57 | 无异常描述
+2013-09-18 17:16:11 | [40] | WARN  | LogSystem | warn | 2013/9/18 17:16:11 | 无异常描述
+2013-09-18 17:16:11 | [40] | WARN  | LogSystem | warn | API调用-时间：2013/9/18 17:16:11 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-18 17:16:11 | [40] | WARN  | LogSystem | warn | 调用ResponseHTML-重新获取-时间：2013/9/18 17:16:11 | 无异常描述
+2013-09-18 17:16:14 | [40] | WARN  | LogSystem | warn | API响应-时间：2013/9/18 17:16:14 | 无异常描述
+2013-09-18 17:16:16 | [28] | WARN  | LogSystem | warn | 2013/9/18 17:16:16 | 无异常描述
+2013-09-18 17:16:16 | [41] | WARN  | LogSystem | warn | API调用-时间：2013/9/18 17:16:16 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-18 17:16:16 | [41] | WARN  | LogSystem | warn | 调用ResponseJSON-重新获取-时间：2013/9/18 17:16:16 | 无异常描述
+2013-09-18 17:16:17 | [41] | WARN  | LogSystem | warn | API响应-时间：2013/9/18 17:16:17 | 无异常描述
+2013-09-18 17:17:47 | [40] | WARN  | LogSystem | warn | 2013/9/18 17:17:47 | 无异常描述
+2013-09-18 17:17:47 | [40] | WARN  | LogSystem | warn | API调用-时间：2013/9/18 17:17:47 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-18 17:17:47 | [40] | WARN  | LogSystem | warn | 调用ResponseHTML-缓存数据-时间：2013/9/18 17:17:47 | 无异常描述
+2013-09-18 17:17:47 | [40] | WARN  | LogSystem | warn | API响应-时间：2013/9/18 17:17:47 | 无异常描述
+2013-09-18 17:18:11 | [28] | WARN  | LogSystem | warn | 2013/9/18 17:18:11 | 无异常描述
+2013-09-18 17:18:11 | [28] | WARN  | LogSystem | warn | API调用-时间：2013/9/18 17:18:11 IP：::1 UserAgent：Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0) | 无异常描述
+2013-09-18 17:18:11 | [28] | WARN  | LogSystem | warn | 调用ResponseHTML-重新获取-时间：2013/9/18 17:18:11 | 无异常描述
+2013-09-18 17:18:12 | [28] | WARN  | LogSystem | warn | API响应-时间：2013/9/18 17:18:12 | 无异常描述

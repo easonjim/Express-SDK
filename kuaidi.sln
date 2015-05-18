@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kuaidi", "kuaidi\kuaidi.csproj", "{18380077-8F08-44B3-8B96-AC7C4DF5AADE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComLib", "Dependencies\Common\ComLib.csproj", "{3FDB335D-87D5-4D2D-9C9A-5D0F4093B44A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18380077-8F08-44B3-8B96-AC7C4DF5AADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18380077-8F08-44B3-8B96-AC7C4DF5AADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18380077-8F08-44B3-8B96-AC7C4DF5AADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18380077-8F08-44B3-8B96-AC7C4DF5AADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FDB335D-87D5-4D2D-9C9A-5D0F4093B44A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FDB335D-87D5-4D2D-9C9A-5D0F4093B44A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FDB335D-87D5-4D2D-9C9A-5D0F4093B44A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FDB335D-87D5-4D2D-9C9A-5D0F4093B44A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

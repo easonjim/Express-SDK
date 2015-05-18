@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3FDB335D-87D5-4D2D-9C9A-5D0F4093B44A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ComLib</RootNamespace>
+    <AssemblyName>ComLib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\ComLib.xml</DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Cache\WebCacheHelper.cs.bak" />
+    <Compile Include="Cache\Cache.cs" />
+    <Compile Include="Cache\CacheAspNet.cs" />
+    <Compile Include="Cache\CacheItemDescriptor.cs" />
+    <Compile Include="Cache\CacheItemPriority.cs" />
+    <Compile Include="Cache\CacheManager.cs" />
+    <Compile Include="Cache\CacheSettings.cs" />
+    <Compile Include="Cache\Interfaces\ICache.cs" />
+    <Compile Include="Collections\CollectionUtils.cs" />
+    <Compile Include="Collections\DictionaryBidirectional.cs" />
+    <Compile Include="Collections\DictionaryExtensions.cs" />
+    <Compile Include="Collections\DictionaryMultiValue.cs" />
+    <Compile Include="Collections\DictionaryOrdered.cs" />
+    <Compile Include="Collections\DictionaryReadOnly.cs" />
+    <Compile Include="Collections\DictionarySet.cs" />
+    <Compile Include="Collections\DictionaryTypeConversion.cs" />
+    <Compile Include="Collections\EnumeratorCountable.cs" />
+    <Compile Include="Collections\EnumeratorMulti.cs" />
+    <Compile Include="Collections\GenericListBase.cs" />
+    <Compile Include="Collections\IndexedLookUp.cs" />
+    <Compile Include="Collections\IndexSpan.cs" />
+    <Compile Include="Collections\PropertyKey.cs" />
+    <Compile Include="Collections\Set.cs" />
+    <Compile Include="Compression\SharpZipLib\BZip2\BZip2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\BZip2\BZip2Constants.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\BZip2\BZip2Exception.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\BZip2\BZip2InputStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\BZip2\BZip2OutputStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Checksums\Adler32.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Checksums\CRC32.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Checksums\IChecksum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Checksums\StrangeCRC.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Core\FileSystemScanner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Core\INameTransform.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Core\IScanFilter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Core\NameFilter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Core\PathFilter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Core\StreamUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Core\WindowsPathUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Encryption\PkzipClassic.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\GZip\GZIPConstants.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\GZip\GZipException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\GZip\GzipInputStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\GZip\GzipOutputStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Main.cs" />
+    <Compile Include="Compression\SharpZipLib\SharpZipBaseException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Tar\InvalidHeaderException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Tar\TarArchive.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Tar\TarBuffer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Tar\TarEntry.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Tar\TarException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Tar\TarHeader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Tar\TarInputStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Tar\TarOutputStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Zip\Compression\Deflater.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Zip\Compression\DeflaterConstants.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Zip\Compression\DeflaterEngine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Zip\Compression\DeflaterHuffman.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Zip\Compression\DeflaterPending.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Zip\Compression\Inflater.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Zip\Compression\InflaterDynHeader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Zip\Compression\InflaterHuffmanTree.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Zip\Compression\PendingBuffer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Zip\Compression\Streams\DeflaterOutputStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Zip\Compression\Streams\InflaterInputStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Zip\Compression\Streams\OutputWindow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Zip\Compression\Streams\StreamManipulator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Zip\FastZip.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Zip\IEntryFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Zip\WindowsNameTransform.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Zip\ZipConstants.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Zip\ZipEntry.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Zip\ZipEntryFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Zip\ZipException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Zip\ZipExtraData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Zip\ZipFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Zip\ZipHelperStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Zip\ZipInputStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Zip\ZipNameTransform.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\SharpZipLib\Zip\ZipOutputStream.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Compression\ZIPPER.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ConfigHelper\ConfigHelper.cs" />
+    <Compile Include="Control\ControlHelper.cs" />
+    <Compile Include="Cookie\CookieHelper.cs" />
+    <Compile Include="Exceptions\ErrorManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exceptions\ErrorManagerBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exceptions\ErrorManagerDefault.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exceptions\ErrorManagerWebDefault.cs" />
+    <Compile Include="Exceptions\IErrorManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Extensions\DateTimeExtension.cs" />
+    <Compile Include="Guid\GuidHelper.cs" />
+    <Compile Include="HttpHelper\HttpCookieHelper.cs" />
+    <Compile Include="HttpHelper\HttpHelper.cs" />
+    <Compile Include="Image\Thumbnail.cs" />
+    <Compile Include="Image\ImageUpLoadCommon.cs" />
+    <Compile Include="Parsers\LexArgs.cs" />
+    <Compile Include="Parsers\LexBase.cs" />
+    <Compile Include="Parsers\LexList.cs" />
+    <Compile Include="Parsers\LexSettings.cs" />
+    <Compile Include="Parsers\TokenReader.cs" />
+    <Compile Include="Performance\CodeTimer.cs" />
+    <Compile Include="Debug\DebugView.cs" />
+    <Compile Include="Extensions\CommonExtensions.cs" />
+    <Compile Include="IocContainer\IIoc.cs" />
+    <Compile Include="IocContainer\Ioc.cs" />
+    <Compile Include="IocContainer\IocMemory.cs" />
+    <Compile Include="Performance\PerfCounter.cs" />
+    <Compile Include="SingletonProvider\SingletonProvider.cs" />
+    <Compile Include="Types\DateTime\DateParser.cs" />
+    <Compile Include="Types\DateTime\TimeParser.cs" />
+    <Compile Include="Types\EnumLookup.cs" />
+    <Compile Include="Types\String\StringUtils.cs" />
+    <Compile Include="Types\String\TextSplitter.cs" />
+    <Compile Include="Types\TypeHelper.cs" />
+    <Compile Include="Types\TypeParsers.cs" />
+    <Compile Include="Utilities\BoolMessage.cs" />
+    <Compile Include="Utilities\EnumerableExtensions.cs" />
+    <Compile Include="Utilities\Errors.cs" />
+    <Compile Include="Utilities\ExecuteHelper.cs" />
+    <Compile Include="Utilities\ExpressionHelper.cs" />
+    <Compile Include="Utilities\RegexPattern.cs" />
+    <Compile Include="Utilities\TryCatchUtility.cs" />
+    <Compile Include="Utilities\ValidationResult.cs" />
+    <Compile Include="Validation\Validation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Validation\ValidationExtensions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Validation\ValidationExtensionsAssertive.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Validation\ValidationUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Validation\ValidatorBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Validation\ValidatorFluent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Validation\ValidatorWithRules.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WebPage\JavaScript\ECMAScriptPacker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WebPage\JavaScript\ParseMaster.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Log4NetHelper\Log4NetBase.cs" />
+    <Compile Include="Log4NetHelper\Log4NetDo\LogBLL.cs" />
+    <Compile Include="Log4NetHelper\Log4NetDo\LogInfo.cs" />
+    <Compile Include="Log4NetHelper\Log4NetDo\LogOper.cs" />
+    <Compile Include="Log4NetHelper\LogBase.cs" />
+    <Compile Include="Status\CookiesHelper.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Date\DateHelper.cs" />
+    <Compile Include="DEncrypt\DEncrypt.cs" />
+    <Compile Include="Email\EmailMessages.cs" />
+    <Compile Include="Email\EmailService.cs" />
+    <Compile Include="Email\IEmailService.cs" />
+    <Compile Include="Email\Settings.cs" />
+    <Compile Include="Enum\EnumHelper.cs" />
+    <Compile Include="Extensions\ReflectionExtensions.cs" />
+    <Compile Include="Extensions\IntegerExtensions.cs" />
+    <Compile Include="IO\FileHelper.cs" />
+    <Compile Include="Extensions\TypeParseExtensions.cs" />
+    <Compile Include="Status\SessionHelper.cs" />
+    <Compile Include="WebPage\HttpProcHelper.cs" />
+    <Compile Include="WebPage\JavaScript\JavaScriptHelper.cs" />
+    <Compile Include="Image\MakeThumbImage.cs" />
+    <Compile Include="pinyin\PinYinHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebPage\PageHelper.cs" />
+    <Compile Include="WebPage\QueryStringHelper.cs" />
+    <Compile Include="Reflection\ReflectionHelper.cs" />
+    <Compile Include="Regex\RegexHelper.cs" />
+    <Compile Include="RMB\RmbHelper.cs" />
+    <Compile Include="Serialize\SerializeHelper.cs" />
+    <Compile Include="StringFunction\StringFunction.cs" />
+    <Compile Include="WebPage\SystemInfo.cs" />
+    <Compile Include="WebPage\UrlHelper.cs" />
+    <Compile Include="Utilities\Guard.cs" />
+    <Compile Include="Image\WaterImage.cs" />
+    <Compile Include="Xml\XmlHerlper.cs" />
+    <None Include="HttpHelper\HttpHelper2013-04-14.rar" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

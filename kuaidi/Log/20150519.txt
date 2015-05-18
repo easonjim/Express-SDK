@@ -1,0 +1,134 @@
+2015-05-19 00:04:57 | [6] | WARN  | LogSystem | warn | 2015/5/19 0:04:57 | 无异常描述
+2015-05-19 00:04:57 | [4] | WARN  | LogSystem | warn | 系统错误 | 文件不存在。
+2015-05-19 00:04:57 | [4] | WARN  | LogSystem | warn | Host : localhost
+Port : 6216
+User Host Address : ::1
+User Agent : Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+Url : http://localhost:6216/favicon.ico
+Raw Url : /favicon.ico
+Message : 文件不存在。
+Source : System.Web
+StackTrace :    在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+ | 无异常描述
+2015-05-19 00:04:57 | [4] | WARN  | LogSystem | warn | 程序错误 | 无异常描述
+2015-05-19 00:05:00 | [10] | WARN  | LogSystem | warn | 2015/5/19 0:05:00 | 无异常描述
+2015-05-19 00:05:00 | [6] | WARN  | LogSystem | warn | 系统错误 | 文件不存在。
+2015-05-19 00:05:00 | [6] | WARN  | LogSystem | warn | Host : localhost
+Port : 6216
+User Host Address : ::1
+User Agent : Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+Url : http://localhost:6216/favicon.ico
+Raw Url : /favicon.ico
+Message : 文件不存在。
+Source : System.Web
+StackTrace :    在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+ | 无异常描述
+2015-05-19 00:05:00 | [6] | WARN  | LogSystem | warn | 程序错误 | 无异常描述
+2015-05-19 00:05:55 | [6] | WARN  | LogSystem | warn | 2015/5/19 0:05:55 | 无异常描述
+2015-05-19 00:05:55 | [4] | WARN  | LogSystem | warn | API调用-时间：2015/5/19 0:05:55 IP：::1 UserAgent：Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko | 无异常描述
+2015-05-19 00:05:55 | [4] | WARN  | LogSystem | warn | 调用ResponseHTML-重新获取-时间：2015/5/19 0:05:55 | 无异常描述
+2015-05-19 00:05:56 | [4] | WARN  | LogSystem | warn | API响应-时间：2015/5/19 0:05:56 | 无异常描述
+2015-05-19 00:06:08 | [10] | WARN  | LogSystem | warn | 2015/5/19 0:06:08 | 无异常描述
+2015-05-19 00:06:08 | [4] | WARN  | LogSystem | warn | API调用-时间：2015/5/19 0:06:08 IP：::1 UserAgent：Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko | 无异常描述
+2015-05-19 00:06:08 | [4] | WARN  | LogSystem | warn | 调用ResponseJSON-重新获取-时间：2015/5/19 0:06:08 | 无异常描述
+2015-05-19 00:06:08 | [4] | WARN  | LogSystem | warn | API响应-时间：2015/5/19 0:06:08 | 无异常描述
+2015-05-19 00:10:24 | [9] | WARN  | LogSystem | warn | 2015/5/19 0:10:24 | 无异常描述
+2015-05-19 00:10:24 | [4] | WARN  | LogSystem | warn | API调用-时间：2015/5/19 0:10:24 IP：::1 UserAgent：Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko | 无异常描述
+2015-05-19 00:10:24 | [4] | WARN  | LogSystem | warn | 调用ResponseJSON-重新获取-时间：2015/5/19 0:10:24 | 无异常描述
+2015-05-19 00:10:25 | [4] | WARN  | LogSystem | warn | API响应-时间：2015/5/19 0:10:25 | 无异常描述
+2015-05-19 00:11:48 | [9] | WARN  | LogSystem | warn | 2015/5/19 0:11:48 | 无异常描述
+2015-05-19 00:11:48 | [4] | WARN  | LogSystem | warn | API调用-时间：2015/5/19 0:11:48 IP：::1 UserAgent：Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko | 无异常描述
+2015-05-19 00:11:48 | [4] | WARN  | LogSystem | warn | 调用ResponseJSON-重新获取-时间：2015/5/19 0:11:48 | 无异常描述
+2015-05-19 00:11:49 | [4] | WARN  | LogSystem | warn | API响应-时间：2015/5/19 0:11:49 | 无异常描述
+2015-05-19 00:11:57 | [6] | WARN  | LogSystem | warn | API调用-时间：2015/5/19 0:11:57 IP：::1 UserAgent：Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko | 无异常描述
+2015-05-19 00:11:57 | [6] | WARN  | LogSystem | warn | 调用ResponseJSON-缓存数据-时间：2015/5/19 0:11:57 | 无异常描述
+2015-05-19 00:11:57 | [6] | WARN  | LogSystem | warn | API响应-时间：2015/5/19 0:11:57 | 无异常描述
+2015-05-19 00:11:58 | [13] | WARN  | LogSystem | warn | API调用-时间：2015/5/19 0:11:58 IP：::1 UserAgent：Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko | 无异常描述
+2015-05-19 00:11:58 | [13] | WARN  | LogSystem | warn | 调用ResponseJSON-缓存数据-时间：2015/5/19 0:11:58 | 无异常描述
+2015-05-19 00:11:58 | [13] | WARN  | LogSystem | warn | API响应-时间：2015/5/19 0:11:58 | 无异常描述
+2015-05-19 00:11:58 | [6] | WARN  | LogSystem | warn | API调用-时间：2015/5/19 0:11:58 IP：::1 UserAgent：Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko | 无异常描述
+2015-05-19 00:11:58 | [6] | WARN  | LogSystem | warn | 调用ResponseJSON-缓存数据-时间：2015/5/19 0:11:58 | 无异常描述
+2015-05-19 00:11:58 | [6] | WARN  | LogSystem | warn | API响应-时间：2015/5/19 0:11:58 | 无异常描述
+2015-05-19 00:11:58 | [13] | WARN  | LogSystem | warn | API调用-时间：2015/5/19 0:11:58 IP：::1 UserAgent：Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko | 无异常描述
+2015-05-19 00:11:58 | [13] | WARN  | LogSystem | warn | 调用ResponseJSON-缓存数据-时间：2015/5/19 0:11:58 | 无异常描述
+2015-05-19 00:11:58 | [13] | WARN  | LogSystem | warn | API响应-时间：2015/5/19 0:11:58 | 无异常描述
+2015-05-19 00:11:59 | [4] | WARN  | LogSystem | warn | API调用-时间：2015/5/19 0:11:59 IP：::1 UserAgent：Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko | 无异常描述
+2015-05-19 00:11:59 | [4] | WARN  | LogSystem | warn | 调用ResponseJSON-缓存数据-时间：2015/5/19 0:11:59 | 无异常描述
+2015-05-19 00:11:59 | [4] | WARN  | LogSystem | warn | API响应-时间：2015/5/19 0:11:59 | 无异常描述
+2015-05-19 00:11:59 | [9] | WARN  | LogSystem | warn | API调用-时间：2015/5/19 0:11:59 IP：::1 UserAgent：Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko | 无异常描述
+2015-05-19 00:11:59 | [9] | WARN  | LogSystem | warn | 调用ResponseJSON-缓存数据-时间：2015/5/19 0:11:59 | 无异常描述
+2015-05-19 00:11:59 | [9] | WARN  | LogSystem | warn | API响应-时间：2015/5/19 0:11:59 | 无异常描述
+2015-05-19 00:13:05 | [6] | WARN  | LogSystem | warn | 2015/5/19 0:13:05 | 无异常描述
+2015-05-19 00:13:05 | [6] | WARN  | LogSystem | warn | API调用-时间：2015/5/19 0:13:05 IP：::1 UserAgent：Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko | 无异常描述
+2015-05-19 00:13:05 | [6] | WARN  | LogSystem | warn | 调用ResponseJSON-重新获取-时间：2015/5/19 0:13:05 | 无异常描述
+2015-05-19 00:13:06 | [6] | WARN  | LogSystem | warn | API响应-时间：2015/5/19 0:13:06 | 无异常描述
+2015-05-19 00:25:40 | [19] | WARN  | LogSystem | warn | API调用-时间：2015/5/19 0:25:40 IP：::1 UserAgent：Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36 | 无异常描述
+2015-05-19 00:25:40 | [19] | WARN  | LogSystem | warn | 调用ResponseJSON-重新获取-时间：2015/5/19 0:25:40 | 无异常描述
+2015-05-19 00:25:41 | [19] | WARN  | LogSystem | warn | API响应-时间：2015/5/19 0:25:41 | 无异常描述
+2015-05-19 00:25:43 | [18] | WARN  | LogSystem | warn | 系统错误 | 文件不存在。
+2015-05-19 00:25:43 | [18] | WARN  | LogSystem | warn | Host : localhost
+Port : 6216
+User Host Address : ::1
+User Agent : Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+Url : http://localhost:6216/favicon.ico
+Raw Url : /favicon.ico
+Message : 文件不存在。
+Source : System.Web
+StackTrace :    在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+ | 无异常描述
+2015-05-19 00:25:43 | [18] | WARN  | LogSystem | warn | 程序错误 | 无异常描述
+2015-05-19 00:26:24 | [14] | WARN  | LogSystem | warn | API调用-时间：2015/5/19 0:26:24 IP：::1 UserAgent：Mozilla/5.0 (Windows NT 6.1; WOW64; rv:35.0) Gecko/20100101 Firefox/35.0 | 无异常描述
+2015-05-19 00:26:24 | [14] | WARN  | LogSystem | warn | 调用ResponseJSON-重新获取-时间：2015/5/19 0:26:24 | 无异常描述
+2015-05-19 00:26:25 | [14] | WARN  | LogSystem | warn | API响应-时间：2015/5/19 0:26:25 | 无异常描述
+2015-05-19 00:26:26 | [14] | WARN  | LogSystem | warn | 系统错误 | 文件不存在。
+2015-05-19 00:26:26 | [14] | WARN  | LogSystem | warn | Host : localhost
+Port : 6216
+User Host Address : ::1
+User Agent : Mozilla/5.0 (Windows NT 6.1; WOW64; rv:35.0) Gecko/20100101 Firefox/35.0
+Url : http://localhost:6216/favicon.ico
+Raw Url : /favicon.ico
+Message : 文件不存在。
+Source : System.Web
+StackTrace :    在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+ | 无异常描述
+2015-05-19 00:26:26 | [14] | WARN  | LogSystem | warn | 程序错误 | 无异常描述
+2015-05-19 00:26:26 | [18] | WARN  | LogSystem | warn | 系统错误 | 文件不存在。
+2015-05-19 00:26:26 | [18] | WARN  | LogSystem | warn | Host : localhost
+Port : 6216
+User Host Address : ::1
+User Agent : Mozilla/5.0 (Windows NT 6.1; WOW64; rv:35.0) Gecko/20100101 Firefox/35.0
+Url : http://localhost:6216/favicon.ico
+Raw Url : /favicon.ico
+Message : 文件不存在。
+Source : System.Web
+StackTrace :    在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+TargetSite : System.IO.FileInfo GetFileInfo(System.String, System.String, System.Web.HttpResponse)
+ | 无异常描述
+2015-05-19 00:26:26 | [18] | WARN  | LogSystem | warn | 程序错误 | 无异常描述
+2015-05-19 00:26:55 | [14] | WARN  | LogSystem | warn | API调用-时间：2015/5/19 0:26:55 IP：::1 UserAgent：Mozilla/5.0 (Windows NT 6.1; WOW64; rv:35.0) Gecko/20100101 Firefox/35.0 | 无异常描述
+2015-05-19 00:26:55 | [14] | WARN  | LogSystem | warn | 调用ResponseJSON-缓存数据-时间：2015/5/19 0:26:55 | 无异常描述
+2015-05-19 00:26:55 | [14] | WARN  | LogSystem | warn | API响应-时间：2015/5/19 0:26:55 | 无异常描述
