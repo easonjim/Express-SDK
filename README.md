@@ -13,6 +13,3 @@
 反馈：
 
 如果大家在使用过程中，遇到什么问题无法解决的时候，请联系：easonjim@163.com
-
-hello world
-hello world!
